@@ -1,0 +1,63 @@
+
+https://www.codewithharry.com/videos/cpp-tutorials-in-hindi-26
+To RUN CPP file:
+we have to compile and excute the exutable file.
+
+test.cpp file name
+
+1 Compile with g++ compiler
+--> g++ test.cpp -o test
+
+2 Run executable
+--> ./test
+
+
+Data Types:
+
+1.Built in DataTypes:
+
+int (1,2,3,4)
+float (3.5, 43.4)
+char ('c','tw')
+double(12.23232,45.343434)
+boolean (True or false)
+
+2.User Defined datatypes:
+
+1.Struct:
+Structure is a collection of variables of different data types under a single name. It is similar to a class in that, both holds a collecion of data of different data types.
+
+2.Union
+3.Enum:
+An enumeration is a user-defined data type that consists of integral constants. To define an enumeration, keyword enum is used.
+An enum variable takes only one value out of many possible values.
+
+3. Derived Datatypes:
+1.Array
+2.Function
+3.Pointer
+
+# Headerfiles and Types:
+1.System define header files : it comes with compiler
+2.User define header fiels : it is  written by programmer
+
+
+Pointers:
+what is pointer?
+pointer is datatype which hold the address of other data types.
+
+& --> Address of operator
+* --> Deference operator
+:: --> scope operator
+
+Arrays:
+An Array is collection of items of same types stored in continueos memory location.
+Sometimes,a simple variable is not enough to hold all the data.
+
+Examples : Let say, we want to store marks of 2500 students, having 2500 different variable for this task is not feasible.
+To solve this we can define an array with size 2500 that can hold marks of all students.
+
+Pointer arhtmatic:
+
+address(new) = address(current) + i * sizeof(datatype)
+
