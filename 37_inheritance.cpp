@@ -14,7 +14,7 @@ class Employee{
         Employee(){};
 };
 
-// Derrived class
+// Creating a programmer class derived from Employee base class
 class Programmer : public Employee{
     public:
         int languageCode;
@@ -35,3 +35,17 @@ int main() {
     pr1.getData();
     return 0 ;
 }
+
+// Derived class syntax
+/*
+class {{derived-class-name}} : {{visibility-mode}} {{base-class-name}}
+{
+    class members/methods/ etc ...
+}
+Note : 
+1. Default visibility mode is private
+2. Public visibility mode : Public members of the base class becomes Public members of the derived class
+3. Private visibility mode : Private members of the base class becomes private members of the derived class
+4. Private members are never inherited
+*/
+

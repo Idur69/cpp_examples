@@ -49,7 +49,8 @@ pointer is datatype which hold the address of other data types.
 & --> Address of operator
 * --> Deference operator
 :: --> scope operator
-
+~ --> 
+->    is used to dereference
 Arrays:
 An Array is collection of items of same types stored in continueos memory location.
 Sometimes,a simple variable is not enough to hold all the data.
@@ -61,3 +62,28 @@ Pointer arhtmatic:
 
 address(new) = address(current) + i * sizeof(datatype)
 
+Polymorphism:
+--> One name and multiple forms
+--> eg: function overloading, operator overloading
+--> eg: virtual function
+Types of Polymorphism:
+1. Compile Time Polymorphism
+    It is acheived using: 
+    1.1-> Function overloading
+    1.2-> Operator overloading
+2. Run Time Polymorphism
+    Runtime polymorphism is acheived using.
+    2.1 Virtual Function 
+
+
+// Pure virtual function in cpp++
+Pure virtual function does not perform any operation and 
+the function is declared by assigning the value of 0 to it.
+Pure virtual functions are declared in abstract class.
+
+// Abstract Base class:
+
+Abstract base class is  a class that has at least one pure virtual function in its body.
+
+This class which are inheriting base class must be need to override the virtual function of the abstract class
+other wise complier will through an errro.

@@ -30,6 +30,7 @@ class Derived : public Base {
         }
 
 };
+
 void Derived :: process(){
     data3 = data2 * getData1();
 }
@@ -43,3 +44,4 @@ int main() {
     
     return 0 ;
 }
+
